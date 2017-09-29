@@ -1,0 +1,29 @@
+{
+  "name": "node-hapi-jwt",
+  "version": "1.0.0",
+  "description": "Simple JWT Authentication with Hapi.JS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paolovelove/JWT-NodeJS.git"
+  },
+  "keywords": [
+    "hapi",
+    "jwt"
+  ],
+  "author": "Pao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paolovelove/JWT-NodeJS/issues"
+  },
+  "homepage": "https://github.com/paolovelove/JWT-NodeJS#readme",
+  "dependencies": {
+    "hapi": "^16.6.2",
+    "hapi-auth-jwt2": "^7.3.0",
+    "jsonwebtoken": "^8.0.1"
+  }
+}
