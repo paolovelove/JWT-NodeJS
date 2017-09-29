@@ -18,7 +18,6 @@ let user = {
 // ----------------------------
 
 server.connection({
-	host: 'localhost',
 	port: 8000
 });
 
